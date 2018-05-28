@@ -1,6 +1,6 @@
 #wrapper{
-    background-color: #ddd;
-    color: #95191a;
+    background-color: rgba(221, 221, 221, 1);
+    color: rgba(149, 25, 26, 1);
     width: 300px;
-    border: 1px solid #000000;
+    border: 1px solid rgba(0, 0, 0, 1);
 }
