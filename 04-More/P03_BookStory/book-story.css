@@ -1,0 +1,19 @@
+#wrapper {
+    width: 400px;
+    background-color: rgba(221, 221, 221, 1);
+    border: 1px solid rgba(0, 0, 0, 1);
+    margin-left: 20px;
+    padding: 10px;
+}
+
+p {
+    font-size: 18px;
+}
+
+q::before {
+    content: open-quote;
+}
+
+q::after {
+    content: close-quote;
+}
