@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,900');
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    margin: 0;
+}
+
+header {
+    background: url('./images/header.jpg') no-repeat;
+    color: #fff;
+    height: 150px;
+}
+
+header h1 {
+    margin: 0;
+    line-height: 150px;
+    text-align: center;
+}
+
+main {
+    overflow: hidden;
+	width: 100%;
+}
+
+main div.content {
+    float: left;
+    width: 50%;
+    margin-left: 13%;
+}
+main div.content::after {
+    clear: both;
+}
+    
+div.content article img{
+width: 100%;
+}
+
+main aside {
+    float: right;
+    width: 20%;
+    margin-right: 13%;
+}
+main aside::after{
+    clear: both;
+}
+
+main aside img{
+    width: 100%;
+}
+button{
+    border: 1px solid #ec5353;
+    border-radius: 20px;
+    background: none;
+    padding: 8px 20px;
+}
+button:hover{
+    background: #ec5353;
+    color: #fff;
+}
