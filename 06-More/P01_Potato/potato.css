@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,900');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+}
+
+html {
+    width: 100%;
+}
+
+nav {
+    float: right;
+    /* background: red; */
+    width: 100%;
+}
+
+.nav-item.button-cta a {
+    border: 2px solid #fff;
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+
+.nav-item.button-cta a:hover {
+    background-color: #867260;
+    border: 2px solid #867260;
+}
+
+nav p {
+    text-align: left;
+    float: left;
+    padding: 25px;
+    font-weight: bold;
+}
+
+nav ul {
+    text-align: right;
+    padding: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin-right: 20px;
+    text-transform: uppercase;
+}
+
+header {
+    background: radial-gradient(ellipse at center, rgba(192, 169, 145, 1) 0%, rgba(192, 169, 145, 1) 59%, rgba(168, 143, 121, 1) 100%);
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    padding-top: 30vh;
+    box-sizing: border-box;
+}
+
+header h1, div.features h1, .buy-now h1 {
+    text-transform: capitalize;
+    font-size: 3rem;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+
+header h3, div.features h3 {
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+img {
+    width: 30%;
+}
+
+main * {
+    color: grey;
+}
+
+main div.features {
+    background-image: url('/P01_Potato/images/potato-background.png');
+    background-size: cover;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    padding-top: 30vh;
+    box-sizing: border-box;
+}
+
+div.features h3 {
+    margin: 0 30%;
+}
+
+main div.buy-now {
+    background-color: #FAFAFA;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    padding-top: 3vh;
+    box-sizing: border-box;
+}
+ul.potato-types{
+    height: 45%;
+}
+ul.potato-types>li {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    height: 100%;
+}
+
+ul.potato-types>li li {
+    list-style: none;
+    margin: 15px auto;
+}
+ul.potato-types>li h3 {
+    font-size: 1.6rem;
+    text-transform: capitalize;
+}
+ul.potato-types>li button {
+    border: 2px solid #A9D451;
+    padding: 3px 30px;
+    border-radius: 15px;
+    text-transform: uppercase;
+    color: #A9D451;
+    background-color: transparent;
+    margin-bottom: 15px;
+}
+ul.potato-types>li button:hover {
+    color: #fff;
+    background: #A9D451;
+}
+ul.potato-types>li img {
+    width: 60%;
+    margin-top: 50px;
+}
+ul.potato-types>li {
+ border-right: 3px solid #867260;
+}
+footer{
+    background-color: #867260;
+    text-align: center;
+    padding: 10px;
+}
