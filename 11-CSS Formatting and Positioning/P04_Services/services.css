@@ -1,0 +1,36 @@
+@import url('./fonts/OpenSans-ExtraBold.ttf');
+body{
+    font-family: 'OpenSans-ExtraBold', Helvetica, sans-serif;
+    font-size: 56px;
+    background: #F0F0E8;
+    text-align: center;
+    color: #807F7D;
+}
+body >h1{
+    color: #009288;
+}
+body>h2,p{
+    font-size: 1.5rem;
+}
+main{
+    width: 880px;
+    overflow: auto;
+    margin: auto;
+}
+article{
+    float: left;
+    box-sizing: border-box;
+    width: 220px;
+    height: 250px;
+}
+article:hover{
+    background: #F6F6F6;
+    border-left:10px solid #009288;
+    cursor: pointer;
+}
+article h2{
+    font-size: 1.5rem;
+}
+article p{
+    font-size: 1rem;
+}

@@ -1,20 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,800');
 body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    width: 100%;
     margin: 0;
     padding: 0;
-    width: 100%;
-    background: linear-gradient(to bottom, #567788 0%, #121f25 100%) no-repeat center center;
-    font-family: "Open Sans", sans-serif;
-    font-size: 14px;
     color: #333;
+    background: linear-gradient(to bottom, #567788 0%, #121f25 100%) no-repeat center center;
 }
 
 nav {
-    background: #eff4f7;
-    margin: 40px;
     position: relative;
     z-index: 5;
     height: 80px;
+    margin: 40px;
+    background: #eff4f7;
 }
 
 nav a {
@@ -23,44 +23,140 @@ nav a {
 }
 
 nav ul {
-    padding: 20px 20px 0 20px;
     float: Right;
+    padding: 20px 20px 0 20px;
 }
-nav li{
+
+nav li {
     display: inline-block;
-list-style: none;
-margin-right: 20px;
-padding-bottom: 23px
+    margin-right: 20px;
+    padding-bottom: 23px;
+    list-style: none;
+    ;
 }
-nav li:hover{
+
+nav li:hover {
     cursor: pointer;
     border-bottom: 3px solid #70e9ff;
-    
 }
-nav li:hover a{
+
+nav li:hover a {
     color: #333;
 }
-.logo{
+
+.logo {
     position: absolute;
     z-index: 0;
     top: 20px;
     left: 550px;
-    background: #ea3d51;
     width: 90px;
     height: 90px;
     padding: 20px;
+    background: #ea3d51;
 }
-.brand{
-    text-transform: uppercase;
-    text-align: center;
+
+.brand {
     font-size: 50px;
     font-weight: 900;
-    letter-spacing: 10px;
-    color: #fff;
     margin-top: 72px;
+    text-align: center;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    color: #fff;
 }
-main{
-    background: #CBD0D9;
+
+main {
     width: 80%;
     margin: 0 auto;
+    background: #cbd0d9;
+    margin-top: 100px;
+    padding-bottom: 50px;
+}
+
+header h1.book-title {
+    font-size: 54px;
+    position: relative;
+    z-index: 10;
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+    color: #121f25;
+}
+
+h5.book-genre {
+    font-size: 80px;
+    position: relative;
+    z-index: 3;
+    bottom: 70px;
+    left: 80px;
+    margin: 0;
+    color: #6dffb8;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.content {
+    background: #fff;
+    margin: 2%;
+    margin-top: 10%;
+    padding: 0 30px;
+}
+
+.header {
+    position: relative;
+    bottom: 100px;
+    background: #ea3d51;
+    color: #fff;
+    text-align: center;
+    margin: auto;
+    width: 40%;
+}
+
+.header img {
+    width: 30%;
+    border-radius: 50%;
+    margin: 10%;
+}
+.header .stars{
+    font-size: 30px;
+    margin: 0;
+}
+.header .quote{
+    margin: 10px;
+    margin-bottom: 25px;
+}
+.header .quote::before,.header .quote::after{
+    content: '"';
+    color:#ad2d3c;
+    font-size: 30px;
+    font-weight: bold;
+}
+.header button{
+    margin-bottom: 20px;
+    background: transparent;
+    border: 3px solid #70ECFF;
+    text-transform: uppercase;
+    padding: 8px 15px;
+}
+.header button:hover{
+    background:  #70ECFF;
+    border: 3px solid #70ECFF;
+    color: #fff;
+}
+.content >h1{
+    color: #6dffb8;
+    text-transform: capitalize;
+    font-size: 50px
+}
+.content >button{
+    margin-bottom: 20px;
+    background: transparent;
+    border: 3px solid #628291;
+    text-transform: uppercase;
+    padding: 8px 15px;
+}
+.content >button:hover{
+    background:  #628291;
+    border: 3px solid #628291;
+    color: #6dffb8; 
 }
