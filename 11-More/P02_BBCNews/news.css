@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'Vollkorn';
+    src: url(./fonts/Vollkorn-Regular.ttf) format('truetype');
+}
+
+body {
+    font-family: Calibri, Verdana, sans-serif;
+}
+section{
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid #a5b2b3;
+    width: 890px;
+    margin: auto;
+}
+article{
+    width: 22%;
+}
+article img{
+    width: 100%;
+}
+article h1{
+    text-align: center;
+}
+article img:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}

@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:700|Open+Sans:400,700');
+@import url('https://use.fontawesome.com/releases/v5.0.13/css/all.css');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+aside {
+    width: 20%;
+    background: #FFFFFF;
+    float: left;
+    text-align: center;
+}
+
+aside::after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+main {
+    width: 80%;
+    background: #F4F5F7;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 0 40px;
+}
+
+.logo {
+    font-family: Comfortaa, sans-serif;
+    font-size: 40px;
+    margin: 40px auto;
+}
+
+.name {
+    color: #B1C0C7;
+    text-transform: uppercase;
+    margin: 30px auto;
+}
+
+aside img {
+    width: 50%;
+    border-radius: 50%;
+}
+
+nav li {
+    list-style: none;
+    text-align: left;
+    margin: 20px auto;
+    color: #B1C0C7;
+}
+
+nav li i {
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+nav li a {
+    color: #B1C0C7;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 15px;
+}
+
+nav li:hover * {
+    color: black;
+    cursor: pointer;
+}
+
+nav ul {
+    margin-left: 20px;
+}
+
+header button {
+    float: right;
+}
+
+header * {
+    display: inline-block;
+    margin: 0;
+    font-weight: normal;
+}
+
+header {
+    margin: 45px auto;
+}
+
+header button {
+    background: #FF7739;
+    border: 2px solid #FF7739;
+    padding: 5px;
+    border-radius: 20px;
+    width: 150px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 5px auto;
+}
+
+header button:hover {
+    background: #F4F5F7;
+    color: #FF7739;
+}
+main h5{
+    text-transform: capitalize;
+    margin: 5px 0;
+    font-size: medium;
+}
+main >p{
+    text-transform: uppercase;
+    margin: 20px 0;
+    font-size: small;
+}
+article p{
+    margin: 10px;
+    text-transform: capitalize;
+}
+.row {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 30px;
+}
+
+.row article {
+    box-shadow: 8px 6px 17px -1px rgba(0, 0, 0, 0.26);
+    width: 30%;
+    margin-right: 3%;
+}
+
+.row article img {
+    width: 100%;
+    margin-top: 25px;
+}
+
+span.status {
+    position: relative;
+    top: 10px;
+    left: -15px;
+    padding: 2px 15px;
+    border-radius: 15px;
+    text-transform: uppercase;
+    border: none;
+    color: white;
+}
+
+.rented {
+    background: #B8C5CD;
+}
+.rented::before{
+    content:'\02713 \00A0';
+}
+.listed{
+background: #68BB69;
+}
+.draft{
+    background: #B1C0C7;
+}

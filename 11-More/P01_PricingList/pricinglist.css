@@ -1,0 +1,77 @@
+@font-face
+{
+  font-family: 'Vollkorn';
+  src: url(./fonts/Vollkorn-Regular.ttf) format('truetype');
+}
+
+body
+{
+  font-family: 'Vollkorn',Fallback,sans-serif;
+  text-align: center;
+}
+
+main
+{
+  padding: 0 3%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+section
+{
+  border: 1px solid #ddd;
+  height: 420px;
+  position: relative;
+}
+
+section:hover
+{
+  cursor: pointer;
+}
+
+section:hover button,section:hover header
+{
+  background: #65d3e2;
+}
+
+section:hover h3
+{
+  color: #65d3e2;
+}
+
+section header
+{
+  text-transform: capitalize;
+  background: #ddd;
+  padding: 17px;
+  font-size: 20px;
+}
+
+section h3
+{
+  font-size: 36px;
+  margin-top: 0;
+}
+
+section p
+{
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  margin: 14px 15px auto;
+}
+
+section button
+{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-bottom: 20px;
+  transform: translate(-50%);
+  background: #ddd;
+  border-radius: 7px;
+  border: 0;
+  padding: 10px;
+  width: 80%;
+  cursor: pointer;
+  text-transform: capitalize;
+}

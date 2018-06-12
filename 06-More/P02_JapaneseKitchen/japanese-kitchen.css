@@ -9,13 +9,13 @@
 }
 
 body {
-    background-image: url('/P02_JapaneseKitchen/images/dark-wood.jpg');
+    background-image: url('./images/dark-wood.jpg');
     margin-left: 15%;
     margin-right: 15%;
 }
 
 header {
-    background-image: url('/P02_JapaneseKitchen/images/header-page.jpg');
+    background-image: url('./images/header-page.jpg');
     background-position: left;
     background-size: cover;
     height: 100px;
@@ -31,7 +31,7 @@ header h1 {
 }
 
 nav {
-    background-image: url('/P02_JapaneseKitchen/images/header-page.jpg');
+    background-image: url('./images/header-page.jpg');
     margin-top: 2px;
     margin-bottom: 5px;
 }

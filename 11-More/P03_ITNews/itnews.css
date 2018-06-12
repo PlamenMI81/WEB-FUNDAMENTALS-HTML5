@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Vollkorn');
+body {
+    font-family: 'Vollkorn', serif;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    margin: auto;
+}
+
+article {
+    width: 100%;
+    margin: 10px auto;
+}
+
+article * {
+    margin: 0;
+}
+
+article img {
+    float: left;
+    width: 27%;
+    border: 1px solid lightgray;
+    padding: 5px;
+    margin-right: 10px;
+}
+h1{
+    margin-left: 10%;
+}
+h3, a {
+    color: rgb(114, 195, 202);
+}
+
+div {
+    font-style: italic;
+}
+
+p, div {
+    margin-bottom: 10px;
+}
