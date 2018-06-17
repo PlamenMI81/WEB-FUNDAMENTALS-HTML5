@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,900');
+@import url('https://use.fontawesome.com/releases/v5.0.13/css/all.css');
+/* rgb(239, 101, 44) */
+
+:root {
+    --orange: rgb(239, 101, 44);
+    --gray: rgb(60, 62, 74);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 100%;
+}
+
+header {
+    background: linear-gradient(to right, rgba(60, 62, 74, 0.9), rgba(60, 62, 74, 0.9)), url('./img/header-bg.png');
+    background-size: cover;
+    width: 100%;
+    padding: 2rem 1rem 0 1rem;
+    color: white;
+    text-align: center;
+}
+
+.logo {
+    float: left;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+
+.top-menu {
+    float: right;
+}
+
+.top-menu li {
+    display: inline-block;
+    margin-left: 1.5rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+
+.top-menu li:hover {
+    color: var(--orange);
+    cursor: pointer;
+}
+
+header h1 {
+    margin-top: 30vh;
+    width: 50%;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+}
+
+header h1+i {
+    font-size: 3rem;
+    margin-left: 5rem;
+}
+
+header h1+i:hover {
+    color: var(--orange);
+    cursor: pointer;
+}
+
+#head {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 8%;
+}
+
+#head article {
+    width: 20%;
+    height: 15rem;
+    text-align: left;
+}
+
+#head article:hover {
+    border-bottom: 0.5rem solid var(--orange);
+    cursor: pointer;
+}
+
+#head article i {
+    font-size: 2rem;
+    margin-bottom: 15%;
+}
+
+#quote {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+#quote article {
+    width: 30%;
+    padding: 5rem 2rem;
+}
+
+#quote .orange {
+    position: absolute;
+    width: 40%;
+    background-color: var(--orange);
+    right: 5vw;
+    height: 90%;
+    top: 0;
+    opacity: 0.8;
+}
+
+#quote img {
+    width: 100%;
+}
+
+#quote article.first h3 {
+    text-align: right;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+    font-size: 1.3rem;
+    font-weight: 900;
+}
+
+#quote article.first p {
+    text-transform: capitalize;
+    text-align: right;
+}
+
+#quote article.second {
+    width: 40%;
+    text-align: left;
+}
+
+#quote article.second p:nth-child(1) {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    padding-bottom: 3rem;
+    border-bottom: 1px solid lightgray;
+}
+
+#quote article.second p:nth-child(2) {
+    font-weight: 900;
+}
+
+#schedule {
+    color: white;
+    background-color: var(--gray);
+}
+
+#schedule h3 {
+    padding: 3rem 1rem;
+    width: 40%;
+    font-size: 2rem;
+}
+
+#schedule .articles {
+    display: flex;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+#schedule .articles article {
+    width: 40%;
+}
+
+#schedule .row {
+    margin: 3rem 0;
+}
+
+#schedule .time, .activity {
+    margin-left: 2rem;
+}
+#schedule .time{
+    font-weight: 900;
+}
+
+#schedule .icon {
+    background-color: var(--orange);
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    display: inline-block;
+    text-align: center;
+}
+#schedule .fas,.far{
+    line-height: 2.9rem;
+}

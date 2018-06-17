@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Oxygen, sans-serif;
+}
+
+body{
+    background-color: #927057;
+    text-align: center;
+    padding-top: 50px;
+}
+main>img{
+    width: 100px;
+    border: 3px solid #D5C395;
+    margin-bottom: 50px;
+}
+
+article{
+    background-color: #D5C395;
+    width: 400px;
+    height: 250px;
+    margin: auto;
+    padding: 4%;
+    position: relative;
+}
+article p{
+    color: white;
+    text-transform: capitalize;
+    text-align: left;
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+}
+article input[type=text],[type=password]{
+    width: 100%;
+    height: 1.5rem;
+    margin-bottom: 15px;
+    border: none;
+    background-color: #EFE1C4;
+    border-radius: 3px;
+    text-indent: 30px;
+}
+article input[type=submit]{
+    width: 100%;
+    border: none;
+    height: 1.8rem;
+    background-color: #927057;
+    color: #D5C395;
+    font-weight: bold;
+    border-radius: 3px;
+}
+form{
+    position: relative;
+}
+form>img{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border: none;
+}
+
+form>img:nth-child(1){
+    left: 2px;
+    top: 2px;
+}
+form>img:nth-child(3){
+    left: 1px;
+    top: 41px;
+}
+#triangle{
+    position: absolute;
+    top: -30px;
+    left: 41%;
+}
+footer p{
+    margin: 30px;
+    color: #D5C395
+}
